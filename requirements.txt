@@ -1,0 +1,7 @@
+jupyterlab
+matplotlib>=3.8.3
+notebook
+pandas>=2.2.0
+seaborn>=0.13.2
+tensorflow>=2.16.2
+ucimlrepo
