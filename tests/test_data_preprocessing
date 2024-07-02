@@ -1,6 +1,5 @@
 # tests/test_data_preprocessing.py
 import pytest
-import pandas as np
 import pandas as pd
 from src.data_preprocessing import map_sex_column, drop_top_25_height
 
