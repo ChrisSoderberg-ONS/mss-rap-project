@@ -1,10 +1,10 @@
-Abalone Age Prediction Project
+# Abalone Age Prediction Project
 
-Description
+## Description
 
 This project aims to predict the age of abalone based on various physical measurements. The analysis involves loading and cleaning data, preprocessing, feature engineering, training a model, and evaluating its performance. The project is modularized into different scripts for better maintainability and readability.
 
-Project Structure
+## Project Structure
 
 The project consists of the following modules:
 
@@ -14,15 +14,17 @@ model.py: Contains functions for training the model and evaluating predictions.
 plotting.py: Contains functions for plotting data visualizations.
 main.py: The main script that orchestrates the entire pipeline.
 
-How to Use the Code
+## How to Use the Code
 
-Prerequisites
+### Prerequisites:
+
 Python 3.x
 Required libraries: pandas, numpy, scikit-learn, matplotlib, seaborn, ucimlrepo
 You can install the required libraries using pip:
     pip install pandas numpy scikit-learn matplotlib seaborn ucimlrepo
 
-Instructions
+### Instructions:
+
 1. Clone the repository (or download the project files):
     git clone <repository-url>
     cd <project-directory>
@@ -30,7 +32,7 @@ Instructions
     python main.py
 This script will execute the entire data analysis pipeline, including data loading, preprocessing, plotting visualizations, model training, and evaluation. The evaluation metrics will be printed to the console.
 
-Government Guidance on Project Documentation
+## Government Guidance on Project Documentation
 
 To ensure the project adheres to government guidelines for reproducibility and transparency, the following best practices are followed:
 
