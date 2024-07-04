@@ -25,7 +25,8 @@ def sample_preprocessing_df():
 
 def test_map_sex_column(sample_preprocessing_df):
     """
-    Test the map_sex_column function to ensure it correctly maps 'Sex' column values to numerical values.
+    Test the map_sex_column function 
+    to ensure it correctly maps 'Sex' column values to numerical values.
 
     Args:
         sample_preprocessing_df: The sample DataFrame provided by the fixture.
