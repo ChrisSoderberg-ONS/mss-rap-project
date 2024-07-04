@@ -15,7 +15,7 @@ def load_data():
     and adds a 'Rings' column as the target feature.
 
     Returns:
-        pd.DataFrame: A DataFrame containing the Abalone dataset with features and the target 'Rings' column.
+        df: A DataFrame containing the Abalone dataset with features and the target 'Rings' column.
     """
     # Fetch the Abalone dataset from the UCI Machine Learning Repository
     abalones = fetch_ucirepo(id=1)

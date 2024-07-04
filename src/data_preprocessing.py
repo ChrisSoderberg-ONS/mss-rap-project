@@ -15,7 +15,7 @@ def map_sex_column(df):
     (0, 1, 2 respectively).
 
     Returns:
-        pd.DataFrame: The DataFrame with the 'Sex' column mapped to numerical values.
+        df: The DataFrame with the 'Sex' column mapped to numerical values.
     """
     # Map categorical 'Sex' values to numerical values
     df['Sex'] = df['Sex'].map({'M': 0, 'F': 1, 'I': 2})
@@ -29,7 +29,7 @@ def drop_top_25_height(df):
     where the 'Height' is greater than or equal to this value.
 
     Returns:
-        pd.DataFrame: The DataFrame with the top 25% of 'Height' rows removed.
+        df: The DataFrame with the top 25% of 'Height' rows removed.
     """
     # Calculate the 75th percentile of the 'Height' column
     height_75_percentile = df['Height'].quantile(0.75)
